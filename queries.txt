@@ -1,0 +1,13 @@
+SELECT supplier_id
+FROM supplier
+UNION
+SELECT supplier_id
+FROM order_01
+ORDER BY supplier_id;
+
+alter table supplier rename column supplier_name to suppliers_name;
+select suppliers_name from supplier;
+alter table order_01 rename to order_011;
+select * from order_011;
+alter table order_011 rename to order_01;
+select current_date;
