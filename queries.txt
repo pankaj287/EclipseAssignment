@@ -11,3 +11,4 @@ alter table order_01 rename to order_011;
 select * from order_011;
 alter table order_011 rename to order_01;
 select current_date;
+//ddl queries,dml queries.
